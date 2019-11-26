@@ -1,0 +1,50 @@
+---
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: ./svm-latex-ms.tex
+title: "Control Variate Monte Carlo via Black-Scholes Greeks"
+author:
+- name: Zhao Ming
+  affiliation: Utah State University
+abstract: "In this paper, I ..."
+keywords: "Monte Carlo, control variates, option pricing"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 11pt
+spacing: double
+bibliography: ./master.bib
+biblio-style: apsr
+---
+
+# Introduction
+
+
+# Section 1
+
+
+# Section 2
+
+
+## Subsection A
+
+
+## Subsection B
+
+Blah blah blah...
+
+
+<!--
+# References
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\vspace*{-0.2in}
+\noindent
+-->
+
+
